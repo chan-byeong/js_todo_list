@@ -7,7 +7,7 @@ const TODOS_KEY = "todos";
 let list = [];
 
 function saveToDos() {
-  localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
+  localStorage.setItem(TODOS_KEY, JSON.stringify(list));
 }
 
 function deleteTodo(event) {
