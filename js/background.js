@@ -1,7 +1,7 @@
 const images = ["0.jpeg", "1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg"];
 const imgTag = document.createElement("img");
 
-const randImage = `${Math.floor(Math.random() * images.length)}.jpeg`;
+const randImage = `${Math.floor(Math.random() * images.length)+1}.jpeg`;
 
 imgTag.src = `img/${randImage}`;
 
